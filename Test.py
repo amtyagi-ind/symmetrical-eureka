@@ -8,25 +8,12 @@ def factorial(j):
 
 fact= lambda x,y,z:(x*y*z)
 
-
-a='Hello World'
-b="Also"
-d,e,f=1,2,3
-print(a+" "+b)
-fruits=["Apple","Banana","Cherry"]
-
-print(b)
-j=factorial(10)
-
-print (j)
-print(d)
-print (fact(3,2,5))
-fruits[1],fruits[2]=fruits[2],fruits[1]
-x=5
-y=7
-x=x^y
-y=x^y
-x=x^y
-print(x)
-print(y)
-print (fruits[1])
+x=111111112140247;
+for a in range(2,x+1,1):
+    if x%a==0:
+        print("Composite")
+        break
+print(a)
+if a==x:
+        print("Prime")    
+    
